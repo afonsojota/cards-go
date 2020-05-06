@@ -32,7 +32,7 @@ func TestSaveDeckAndNewDeckFromFile(t *testing.T){
 
 	deck = newDeckFromFile(fileName)
 
-	if len(deck) != 16gi{
+	if len(deck) != 16{
 		t.Error("Invalid file")
 	}
 
